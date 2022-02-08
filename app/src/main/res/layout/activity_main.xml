@@ -1,0 +1,23 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+android:background="@color/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatButton android:text="ADD EMPLOYEE"
+        android:id="@+id/addemp"
+        android:background="@drawable/buttonstyle"
+
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/searchemp"
+        android:background="@drawable/buttonstyle1"
+
+        android:layout_margin="8dp"
+        android:text="SEARCH EMPLOYEE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

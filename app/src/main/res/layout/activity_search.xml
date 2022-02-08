@@ -1,0 +1,38 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="EMPLOYEE CODE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/empcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton android:text="SEARCH"
+        android:layout_margin="20dp"
+        android:id="@+id/search"
+        android:background="@drawable/buttonstyle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView android:text="Employee NAME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/empname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView android:text="Designation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/desig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView android:text="Mobile Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/mobno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
