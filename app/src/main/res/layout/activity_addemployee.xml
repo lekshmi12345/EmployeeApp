@@ -26,6 +26,7 @@ android:layout_margin="8dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText android:id="@+id/mbno"
+        android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <androidx.appcompat.widget.AppCompatButton android:text="SUBMIT"
